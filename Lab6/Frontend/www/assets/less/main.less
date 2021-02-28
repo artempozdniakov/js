@@ -16,6 +16,44 @@ thumbnail{
     } 
 }
 
+#edit_b{
+    background-color:lightgray;
+}
+.bs-callout {
+    padding: 30px;
+    margin: 30px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+.bs-callout-warning h3 {
+    font-size:23px;
+    margin-bottom:15px;
+}
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+
+.contact{
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+#next_b{
+    float:right;
+    margin-top:25px;
+    margin-right:50px;
+    margin-bottom:30px;
+    width:100px;
+}
+
 .main{
     min-height: 100px!important;
     .filters {
@@ -24,6 +62,16 @@ thumbnail{
             text-align: center;
         }
     }
+}
+
+.footer_o{
+    bottom:0;
+    margin-bottom:-30px;
+    position:fixed;
+}
+
+#order_container{
+    margin-top:120px;
 }
 
 .pizza-type{
@@ -172,7 +220,7 @@ thumbnail{
         width:inherit;
         margin-left:1%;
         //margin-top:195px;
-        #buy_b{
+        #buy_b, #edit_b{
            width:90%; 
         }
         .pay-info{
@@ -285,7 +333,7 @@ thumbnail{
             }
         }
         .cart-pay{
-            #buy_b{
+            #buy_b, #edit_b{
                 width:130%; 
             }
             .pay-info{
@@ -300,6 +348,11 @@ thumbnail{
             }
         }
     }
+}
+
+.telephone-help-block, .address-help-block, .name-help-block {
+    font-size: 11px;
+    color: #F31F1F;
 }
 
 @media only screen and (max-width: 768px) {
@@ -319,7 +372,7 @@ thumbnail{
             }
         }
         .cart-pay{
-            #buy_b{
+            #buy_b, #edit_b{
                 width:160%; 
             }
             .pay-info{
@@ -413,7 +466,7 @@ thumbnail{
     }
 }
 
-.footer {
+.footer, .footer_o {
     padding-top: 50px;
     padding-right: 350px;
     padding-bottom: 50px;
