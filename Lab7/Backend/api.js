@@ -20,8 +20,8 @@ exports.createOrder = function(req, res) {
     var order_info = req.body;
     //console.log("Creating Order", order_info);
 
-    var LIQPAY_PUBLIC_KEY = "sandbox_i74191372677";
-    var LIQPAY_PRIVATE_KEY = "sandbox_KMrgs5WOlDeyaETKZvgwRQmN90wQeKz8xBKlfGjQ";
+    var LIQPAY_PUBLIC_KEY = "i90343178140";
+    var LIQPAY_PRIVATE_KEY = "WwAbI9vRzadmYNiuCDavdN6zasWIf6LUZeLXGzI6";
 
     var transaction_descript = "";
     order_info.pizza.forEach(function(item){
